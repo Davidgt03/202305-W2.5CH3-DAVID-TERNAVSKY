@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
+  "test:watch": "jest --watchAll",
   "scripts": {
+    "test": "jest --watchAll --coverage",
+    "test:prod": "jest --watchAll --coverage --watchAll=false",
     "build": "tsc -w",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
   "keywords": [],
