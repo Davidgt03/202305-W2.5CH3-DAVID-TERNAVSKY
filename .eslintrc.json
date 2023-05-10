@@ -1,12 +1,11 @@
 {
   "env": {
+    "browser": true,
     "es2021": true,
     "node": true,
-    "browser": true,
     "test": true
   },
-  "extends": ["xo", "prettier"],
-
+  "extends": ["xo", "eslint-config-prettier"],
   "overrides": [
     {
       "extends": ["xo-typescript"],
@@ -17,5 +16,6 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
+
   "rules": {}
 }
