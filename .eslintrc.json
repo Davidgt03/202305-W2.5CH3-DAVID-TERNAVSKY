@@ -6,6 +6,8 @@
     "test": true
   },
   "extends": ["xo", "eslint-config-prettier"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
   "overrides": [
     {
       "extends": ["xo-typescript"],
